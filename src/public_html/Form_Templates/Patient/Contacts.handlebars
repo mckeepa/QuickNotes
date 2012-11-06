@@ -1,0 +1,17 @@
+﻿<div data-element="contacts" data-type="list">
+  <h2>Contacts</h2>
+
+  {{#each contacts}}
+  <li data-element="contact">
+    <input type="text" data-element="firstName" data-refSet="postcode" data-refSetFilter="qld" placeholder="Contacts First Name" value="{{firstName}}"/>          
+    <input type="text" data-element="lastname" placeholder="Contacts LAst Name" value="{{lastName}}"/>          
+  </li>
+  {{/each}}
+
+
+  <input id="ContactsSave"
+         type="button"
+         data-saveElement="contacts"
+         value="Save" />
+
+</div>

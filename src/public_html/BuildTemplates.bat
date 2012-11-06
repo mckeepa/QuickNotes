@@ -1,0 +1,1 @@
+handlebar-rider -i "./js" -o "./js/View.js" -w -r

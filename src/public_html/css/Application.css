@@ -1,0 +1,12 @@
+﻿body {
+}
+
+#container  { width: 100%; display: table }
+#container label  { display: table-cell; white-space: nowrap; }
+#inputBox  { width: 100%; display: table-cell; }
+
+label {
+	clear: left;
+	float: left;
+	width: 5em; /* or whatever length suits */
+}

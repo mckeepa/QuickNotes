@@ -1,0 +1,11 @@
+﻿<ul class="nav nav-list">
+    {{#each menuGroups}}
+      <!--<li class="nav-header">{{name}}</li>-->
+      <li class="lead">{{name}}</li>
+ 
+      {{#each items}}
+        <li><a href="#{{id}}">{{name}}</a></li>
+      {{/each}} 
+
+  {{/each}}
+</ul>
